@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGTest-f1fa3bbc-a72d-4d29-98ab-a1b974f8b4bf"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.145">
+    <properties></properties>
+
+
+
+            <testcase
+                name="homePageTitleTest"
+                time="0.026"
+                classname="com.qa.opencart.tests.HomePageTest">
+            </testcase>
+            <testcase
+                name="homePageURLTest"
+                time="0.002"
+                classname="com.qa.opencart.tests.HomePageTest">
+            </testcase>
+            <testcase
+                name="searchTest"
+                time="0.669"
+                classname="com.qa.opencart.tests.HomePageTest">
+            </testcase>
+            <testcase
+                name="searchTest"
+                time="0.727"
+                classname="com.qa.opencart.tests.HomePageTest">
+            </testcase>
+            <testcase
+                name="searchTest"
+                time="0.721"
+                classname="com.qa.opencart.tests.HomePageTest">
+            </testcase>
+</testsuite>

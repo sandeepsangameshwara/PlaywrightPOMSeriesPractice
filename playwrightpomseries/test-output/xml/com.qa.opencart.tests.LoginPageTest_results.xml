@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNGTest-89bd051f-89e6-41c2-9012-027d1036cb2a"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.009">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testForLoginScrNavigation"
+                time="0.730"
+                classname="com.qa.opencart.tests.LoginPageTest">
+            </testcase>
+            <testcase
+                name="doLoginToMyAccount"
+                time="1.269"
+                classname="com.qa.opencart.tests.LoginPageTest">
+            </testcase>
+            <testcase
+                name="checkIfForgotPwdLinkExists"
+                time="0.010"
+                classname="com.qa.opencart.tests.LoginPageTest">
+            </testcase>
+</testsuite>

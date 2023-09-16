@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run TestNG Suite",
+            "request": "launch",
+            "mainClass": "org.testng.TestNG",
+            "args": "-d \"testng_output_dir\" -testnames \"test_names\" ./src/test/resources/testrunner/testng-regression.xml",
+            "vmArgs": "-Dname=value"
+        }      
+    ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open Cart Test Regression PW Suite">
+  <listeners>
+    <listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>
+    <listeners>
+      <test name="Open Cart Home Page Test Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+          <class name="com.qa.opencart.tests.HomePageTest"/>
+        </classes>
+      </test>      <!-- Test -->
+      <test name="Open Cart Login Page Test Chrome">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+          <class name="com.qa.opencart.tests.LoginPageTest"/>
+        </classes>
+      </test>      <!-- Test -->
+    </suite>    <!-- Suite -->
